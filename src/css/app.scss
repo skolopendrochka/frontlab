@@ -1,0 +1,20 @@
+body {
+  font-family: 'Roboto', Georgia, serif;
+}
+
+.checkly-shell {
+  background: radial-gradient(circle at top right, rgba(109, 40, 217, 0.12), transparent 42%);
+}
+
+.body--dark .checkly-shell {
+  background: radial-gradient(circle at top right, rgba(249, 115, 22, 0.16), transparent 46%);
+}
+
+.checkly-gate {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4c1d95, #1e1b4b);
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}

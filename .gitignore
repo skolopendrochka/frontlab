@@ -1,0 +1,9 @@
+.DS_Store
+.thumbs.db
+node_modules
+dist
+.quasar
+*.log
+.env.local
+coverage
+mock/db-*.json

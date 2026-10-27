@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user@test.com",
+      "password": "123456",
+      "name": "Екатерина"
+    },
+    {
+      "id": 2,
+      "email": "admin@test.com",
+      "password": "admin123",
+      "name": "Куратор"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Оформить guards для приватных страниц",
+      "completed": false,
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "dueAt": "2026-10-28",
+      "tagIds": [1]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Написать тесты на чек-лист",
+      "completed": true,
+      "createdAt": "2026-10-02T11:10:00.000Z",
+      "dueAt": null,
+      "tagIds": [1]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "Просмотреть деплой Pages",
+      "completed": false,
+      "createdAt": "2026-10-03T16:40:00.000Z",
+      "dueAt": "2026-11-01",
+      "tagIds": [2]
+    }
+  ],
+  "tags": [
+    { "id": 1, "name": "учёба", "color": "purple" },
+    { "id": 2, "name": "ревью", "color": "orange" }
+  ]
+}
